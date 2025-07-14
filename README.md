@@ -16,6 +16,7 @@ By combining **AI predictions**, **IoT sensors**, **autonomous drones**, and **b
 ## 🚨 The Problem  
 - 🧬 ~7 million premature deaths/year from pollution (WHO)  
 - 💸 $5 trillion in global welfare losses (World Bank)  
+
 Most systems today raise alerts only after damage is done.  
 **EcoGuard AI flips the model** — from reaction to *prevention*.
 
@@ -98,13 +99,13 @@ You can build a working prototype using:
 
 We welcome collaborators from:
 
-- 🌱 Climate Tech & Sustainability
-- 🧪 IoT, Sensors & Drones
-- 📲 Web3 & AR/Flutter Developers
+- 🌱 Climate Tech & Sustainability  
+- 🧪 IoT, Sensors & Drones  
+- 📲 Web3 & AR/Flutter Developers  
 
-**Ways to contribute:**
-- Open a Pull Request
-- Report issues / suggest features
+### Ways to contribute:
+- Fork this repo and submit a Pull Request  
+- Report bugs and suggest features via Issues  
 - Reach out via email: **yessasvini.s@gmail.com**
 
 ---
