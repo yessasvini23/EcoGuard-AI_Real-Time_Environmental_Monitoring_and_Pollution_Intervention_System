@@ -1,112 +1,123 @@
-# 🌍 EcoGuard AI: Real-Time Pollution Monitoring & Intervention System
-
-> “Turning passive data into life-saving action”  
-> 🧠 Powered by AI | 🛰️ IoT & Drones | ⛓️ Blockchain | 🌱 Built for the Planet
-
----
-
-## 📌 Overview
-
-**EcoGuard AI** is an open-source, AI-driven environmental protection system that detects and neutralizes pollution *in real time*. Unlike passive monitoring tools, EcoGuard acts — predicting pollution spikes and deploying autonomous drones to clean air and water before lives are affected.
-
-🎯 Targeted at **urban air and water pollution**, which causes:
-- 🧬 ~7 million premature deaths/year (WHO)
-- 💸 $5 trillion in global welfare losses (World Bank)
+# 🌍 EcoGuard AI: Real-Time Pollution Monitoring & Intervention System  
+**“Turning passive data into life-saving action”**  
+🧠 AI-Powered | 🛰️ IoT & Drones | ⛓️ Blockchain Transparency | 🌱 Built for the Planet
 
 ---
 
-## 🚨 Problem
+## 📌 Overview  
+**EcoGuard AI** is an open-source, real-time environmental protection system that doesn’t just monitor — it acts.  
+By combining **AI predictions**, **IoT sensors**, **autonomous drones**, and **blockchain logging**, EcoGuard detects pollution *before* it spikes and responds instantly to protect both ecosystems and human lives.
 
-Most environmental systems today only *monitor*. By the time pollution alerts are raised, the damage is often done.  
-**EcoGuard AI flips the model: Predict. Respond. Protect.**
+🔁 Unlike traditional tools that passively monitor, EcoGuard AI’s mission is:  
+**Predict → Respond → Protect**
+
+---
+
+## 🚨 The Problem  
+- 🧬 ~7 million premature deaths/year from pollution (WHO)  
+- 💸 $5 trillion in global welfare losses (World Bank)  
+Most systems today raise alerts only after damage is done.  
+**EcoGuard AI flips the model** — from reaction to *prevention*.
 
 ---
 
 ## 🌟 Key Features
 
-| Feature              | Description                                                                 |
-|----------------------|-----------------------------------------------------------------------------|
-| 🧠 AI Prediction      | Forecast pollution spikes 12–24 hours in advance                            |
-| 🌐 IoT Sensors        | Low-cost, solar-powered Raspberry Pi sensors measure PM2.5, CO2, pH, metals |
-| 🚁 Drone Swarms       | Autonomous cleanup drones absorb oil, disperse eco-safe reagents             |
-| ⛓️ Blockchain Logging | Tamper-proof pollution data & emissions tracking (Polygon-based)             |
-| 📱 AR Mobile App      | Citizens scan areas, report issues, and earn eco-tokens                     |
-| ⚡ 5G/Edge Computing  | Ultra-low latency for real-time AI processing and drone dispatch             |
+| Feature              | Description |
+|----------------------|-------------|
+| 🧠 **AI Forecasting**        | Predict PM2.5, CO2, and water contamination spikes 12–24 hours in advance |
+| 🌐 **IoT Sensors**           | Low-cost, solar-powered Raspberry Pi setups with air and water quality sensors |
+| 🚁 **Drone Swarms**         | Autonomous drones that absorb oil and disperse eco-safe neutralizers |
+| ⛓️ **Blockchain Logging**    | Immutable emission logs stored on Polygon + IPFS |
+| 📱 **AR Mobile App**        | Citizens scan and report pollution to earn eco-tokens |
+| ⚡ **Edge + 5G Computing**   | Real-time analytics for ultra-low latency response |
 
 ---
 
 ## 🛠️ Tech Stack
 
-**AI & ML**  
-- `Scikit-learn`, `XGBoost`, `TensorFlow` (trained on NASA, EPA datasets)  
-- Time-series forecasting for PM2.5 and contamination spikes
+### AI & ML
+- `Scikit-learn`, `XGBoost`, `TensorFlow`
+- NASA + EPA datasets
+- Time-series forecasting for PM2.5, CO2, and TDS/pH
 
-**IoT Hardware**  
-- `Raspberry Pi`, `DHT11`, `MQ135`, `TDS` & pH sensors  
-- Solar-powered node setup (ESP32-compatible)
+### IoT Hardware
+- Raspberry Pi, ESP32, MQ135 (Air), TDS/pH Sensors (Water), DHT11
+- Solar-powered field deployment
 
-**Drones**  
-- `PX4`, `ArduPilot`, `OpenCV`, GPS-based routing  
-- Payload: biodegradable **nanocellulose sponges** (MIT 2023)
+### Drone Swarm
+- `PX4`, `ArduPilot`, `OpenCV`, GPS-based navigation
+- Payload: **Biodegradable nanocellulose sponges** (MIT, 2023)
 
-**Blockchain**  
-- Smart contracts via `Polygon`  
-- Emission logs stored on `IPFS`
+### Blockchain
+- Smart contracts via **Polygon**
+- Data stored using **IPFS**
 
-**Frontend (Coming Soon)**  
-- Flutter-based AR mobile app  
-- Eco-token wallet + gamified cleanup dashboard
+### Frontend (Coming Soon)
+- `Flutter`-based AR mobile app
+- Citizen dashboard + eco-token wallet
 
 ---
 
 ## 🌍 Impact Goals
 
-- ✅ **30% PM2.5 reduction** in pilot cities within 12 months  
-- ✅ Water contamination response time: **days → minutes**  
-- ✅ Engage **100K+ citizens** in 5 cities via AR gamification  
+✅ **30% PM2.5 reduction** in pilot cities (12 months)  
+✅ **Water contamination response time**: Days → Minutes  
+✅ **100K+ citizens** engaged through AR gamification  
 
 ---
 
 ## 🧪 MVP: Get Started
 
-You can build a basic prototype using:
-```bash
-📡 Raspberry Pi + MQ135 (Air) + TDS/pH (Water)
-🧠 AI: Use Jupyter Notebooks in `/notebooks/` to forecast pollution
-🚁 Drone: Simulate missions using PX4 SITL in `/drones/`
+You can build a working prototype using:
 
+- 📡 **Hardware:** Raspberry Pi + MQ135 (Air), TDS/pH (Water)
+- 🧠 **AI:** Use forecasting notebooks in `/notebooks/`
+- 🚁 **Drone Simulations:** PX4 SITL setup in `/drones/`
 
-🎯 Use Cases
-🚨 Emergency pollution alert + drone response
+---
 
-🏭 Corporate emissions tracking for ESG compliance
+## 🎯 Use Cases
 
-📲 Citizen reporting through mobile AR + eco-token incentives
+- 🚨 **Emergency Pollution Response**: Drone swarms auto-deployed  
+- 🏭 **Corporate ESG Compliance**: Immutable pollution logs  
+- 📲 **Citizen Reporting**: AR scanner + eco-token incentives  
+- 🌍 **Municipal Command Dashboard**: Live pollution monitoring
 
-🌍 Municipal dashboard for real-time air & water quality
+---
 
+## 🔗 Resources & Demos
 
-🤝 Contributing
-We welcome:
+- 🎬 [Video Demo (YouTube)](https://youtu.be/8Dd213Beo9U)  
+- 📊 [Pitch Deck (Presenti.ai)](https://presenti.ai/app/share/CAE.IAEqEJgqdD4rsAOSQYuZbFuFgncwAkABSgozNTA1MDE5NDk0?invite_code=JwEulds9&autoPresent=true)  
+- 📱 [App Prototype (Lovable.app)](https://eco-guard-action-now.lovable.app/)
 
-🌱 Climate tech collaborators
+---
 
-🧪 Sensor/Drones/Edge AI developers
+## 🤝 Contributing
 
-📲 Mobile AR & Web3 builders
+We welcome collaborators from:
 
-Contribute via PRs, or reach out to us directly!
-📬 yessasvini.s@gmail.com
+- 🌱 Climate Tech & Sustainability
+- 🧪 IoT, Sensors & Drones
+- 📲 Web3 & AR/Flutter Developers
 
+**Ways to contribute:**
+- Open a Pull Request
+- Report issues / suggest features
+- Reach out via email: **yessasvini.s@gmail.com**
 
-⭐ Support Us
-If you believe in AI for climate justice:
+---
 
-🌟 Star this repo
+## ⭐ Support the Project
 
-🍀 Share with your network
+If you believe in **AI for climate justice**:
 
-🤝 Partner with us for deployment/funding
+- 🌟 Star this repo  
+- 📢 Share with your network  
+- 🤝 Partner with us for deployment or funding  
 
-This project turns real-time data into real-world action.
-Let's build a cleaner, safer future — together. 🌍✨
+> **EcoGuard AI turns real-time data into real-world action.**  
+> Let’s build a cleaner, safer, smarter planet — together. 🌍✨
+
+---
